@@ -1,0 +1,86 @@
+body {
+  background-color: #e9f0f4;
+}
+
+section {
+  width: 320px;
+  background-color: white;
+  border: solid 1px #dbdbdb;
+  margin: 100px;
+}
+
+h3 {
+  font-family: "Lato";
+  background-color: #2e3641;
+  padding-left: 31px;
+  height: 36px;
+  margin: 0;
+  font-size: 14px;
+  color: rgb(218, 228, 235);
+  font-weight: bold;
+  line-height: 2.429;
+  text-align: left;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li input {
+  width: 9px;
+  height: 9px;
+  vertical-align: top;
+  margin: 11px 10px 9px 10px;
+  text-align: left;
+}
+
+li label {
+  text-align: left;
+}
+
+li {
+  font-family: 'Lato';
+  list-style: none;
+  font-size: 12px;
+  color: rgb(46, 54, 65);
+  line-height: 2.45;
+  border-bottom: solid 1px #e6ebed;
+  position: relative;
+}
+
+.Done {
+  color: rgb(158, 178, 192);
+  text-decoration: line-through;
+}
+
+
+ul li button {
+  border:none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  right:10px;
+  top:9px;
+}
+
+.Done button img {
+  opacity: 0.4;
+}
+
+form input {
+  border: none;
+  background-color: transparent;
+}
+
+form input[type="submit"] {
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+}
+
+form input[type="text"] {
+  font-family: "Lato";
+  font-size: 12px;
+  width: 265px;
+}
